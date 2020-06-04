@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/0247097d87.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="splash">
+      <div class="splash-container">
+        <h1>Rock, Paper, Scissors</h1>
+        <p>Choose your weapon! Best of 5 wins!</p>
+        <div id="startButton" class="start-button">
+          <div class="icon"></div>
+          <i class="fas fa-play"></i>
+          <div class="play-text">
+            <p>PLAY</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="match" class="container">
+      <div class="info">
+        <h1>Rock, Paper, Scissors</h1>
+      </div>
+      <div class="score">
+        <div class="playerDiv">
+          <p>Player</p>
+          <h1 id="player-score">0</h1>
+        </div>
+        <div class="computerDiv">
+          <p>Computer</p>
+          <h1 id="computer-score">0</h1>
+        </div>
+      </div>
+      <div class="main">
+        <h1 class="round-text">Make your choice!</h1>
+        <div class="images">
+          <img src="./images/ROCK.svg" alt="" class="player-hand" />
+          <img src="./images/ROCK.svg" alt="" class="computer-hand" />
+        </div>
+        <div class="allOptions">
+          <h3 class="options">ROCK</h3>
+          <h3 class="options">PAPER</h3>
+          <h3 class="options">SCISSORS</h3>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="main.js"></script>
+</html>
